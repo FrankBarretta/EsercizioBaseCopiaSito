@@ -1,0 +1,85 @@
+/* /Tablet Version/ */
+
+/*
+|
+|
+|
+|
+*/
+
+
+/* @media only screen and (min-width: 768px) {
+
+
+
+
+} */
+
+
+
+
+
+/* /Desktop Version/ */
+
+/*
+|
+|
+|
+|
+*/
+
+@media only screen and (min-width: 992px) {
+
+    /* __________________________ MAIN ___________________________________ */
+
+    .true_main {
+        /* border: 2px blueviolet solid; */ /* _______________ ELIMINA COMMENTO PER DEBUG _______________ */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: normal;
+        width: 1140px;
+    }
+
+    .main_article {
+        /* border: 2px yellowgreen solid; */ /* _______________ ELIMINA COMMENTO PER DEBUG _______________ */
+        padding: 2%;
+        width: 70%;
+        margin-right: 0.5%;
+    }
+
+
+    /* __________________________ ASIDE___________________________________ */
+
+    aside {
+    /*     border: 1px solid black; */ /* _______________ ELIMINA COMMENTO PER DEBUG _______________ */
+        width: 25%;
+        margin-left: 0.5%;
+        margin-top: 2%;
+    }
+
+}
+
+
+
+
+
+
+/* /Desktop-Huge Version/ */
+
+/*
+|
+|
+|
+|
+*/
+
+@media only screen and (min-width: 1200px) {
+
+    /* __________________________ ASIDE___________________________________ */
+
+    .categorie {
+        display: flex;
+    }
+
+}

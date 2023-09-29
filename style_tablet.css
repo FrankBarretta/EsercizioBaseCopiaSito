@@ -1,0 +1,219 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: red; */
+}
+        
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+    
+    
+.background_for_code {
+    background-color: grey ;
+}
+    
+    
+.main_image img {
+    width: 100%;
+}
+    
+    
+.argomenti_pagina_principale{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: right;
+}
+    
+.argomenti_pagina {
+    text-align: right;
+    color: white;
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 70%;
+    font-weight: bold;
+    display: inline;
+    border-radius: 15%;
+    padding: 0.5%;
+    margin: 0.3%;
+}
+        
+.Data_Pubblicazione {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130%;
+    font-weight: lighter;
+}
+        
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+        
+.bg_sviluppatore_web {
+    background-image: url('https://aulab.it/img/blog-cta-background.jpg');
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+}
+    
+.info1_bg_sviluppatore_web {
+    color: gold;
+    text-align:center;
+    top: 300px;
+}
+    
+    
+.img_aulab {
+    background-image: url(https://aulab.it/img/logo-aulab-horizontal.webp);
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size:contain;
+}
+    
+    
+.bold {
+    font-family: 'Arial Narrow Bold';
+}
+    
+    
+    
+    
+.background-code {
+    background-color:rgb(35, 47, 35);
+    color: white;
+    padding-left: 2%;
+}
+    
+    
+    
+main {
+    /* border: 2px red solid; */ /* _________________ */
+    display: flex;
+    justify-content: center;
+}
+    
+    
+.true_main {
+    /* border: 2px blueviolet solid; */ /* _________________ */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1140px;
+    flex-direction: column;
+    align-items: center;
+}
+    
+    
+    
+/* __________________________ MAIN ___________________________________ */
+    
+    
+    
+.main_article {
+    /* border: 2px yellowgreen solid; */ /* _________________ */
+    padding: 2%;
+    width: 80%;
+    margin-right: 0.5%;
+}
+    
+    
+    
+.main_image {
+    /* border: 1px black solid; */ /* _________________ */
+    width: 100%;
+    height: auto;
+}
+    
+    
+    
+
+    
+/* __________________________ NAVIGATION BAR ___________________________________ */
+    
+.navigation_bar {
+    height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 0px 0px 20px;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    justify-content: space-around;
+}
+
+
+/* .sezione_categorie {
+
+} */
+
+
+.categorie {
+    display: flex;
+}
+
+
+.categorie li {
+    display: flex;
+
+}
+
+
+
+/* __________________________ ASIDE___________________________________ */
+
+aside {
+/*     border: 1px solid black; */
+    width: 80%;
+    margin-left: 0.5%;
+    margin-top: 2%;
+}
+    
+aside figure {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: auto auto 7% auto;
+}
+    
+aside figcaption {
+    padding: 5%;
+}
+
+aside figure img {
+/*     border: 1px solid black; */
+    width: 100%;
+    margin: auto;
+}
+
+
+aside iframe {
+    height: 30%;
+}
+
+
+.space_between {
+    height: 250px;
+}
+        
+        
+
+/* ____________________________ FOOTER __________________________________ */
+
+
+footer {
+    background-color:rgb(35, 47, 35);
+    height: 650px;
+}
+
+footer img {
+    opacity: 0.2;
+    height: 250px;
+}
